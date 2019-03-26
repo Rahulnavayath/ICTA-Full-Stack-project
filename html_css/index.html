@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,19 +9,29 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<table>
-    <tr>
-        <td>USERNAME</td>
-        <td><input type="text"></td>
-    </tr>
-    <tr>
-        <td>PASSWORD</td>
-        <td><input type="password"></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td><button class="myButton">LOGIN</button></td>
-    </tr>
-</table>    
+<div class="container">
+    <div class="row">
+      <div class="col col-12 col-sm-4"></div>
+      <div class="col col-12 col-sm-4">
+            <table class="table">
+                    <tr>
+                        <td>USERNAME</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>PASSWORD</td>
+                        <td><input type="password"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button class="myButton">LOGIN</button></td>
+                    </tr>
+                </table>
+
+      </div>
+
+      <div class="col col-12 col-sm-4"></div>
+    </div>
+</div>   
 </body>
 </html>
