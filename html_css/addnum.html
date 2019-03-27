@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./myscript.js">
+        
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-sm-4"></div>
+            <div class="col col-12 col-sm-4">
+                <form>
+                <table>
+                    <tr>
+                        <td>Number1</td>
+                        <td><input type="number" id="num1"></td>
+                    </tr>
+                    <tr>
+                        <td>Number2</td>
+                        <td><input type="number" id="num2"></td>
+                    </tr>
+                    <tr>
+                        <td>Operation</td>
+                        <td>
+                            <select id="option">
+                                <option value="Add">+</option>
+                                <option value="Sub">-</option>
+                                <option value="Mul">*</option>
+                                <option value="Div">/</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button type="button" onclick="read();" class="btn btn-danger">Submit</button></td>
+                    </tr>
+                    <tr>
+                        <td>Result</td>
+                        <td>
+                            <p id="result"></p>
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
