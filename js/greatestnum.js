@@ -1,5 +1,5 @@
-var a=150;
-var b=250;
+var a=800;
+var b=500;
 var c=300;
 
 if(a>b)
