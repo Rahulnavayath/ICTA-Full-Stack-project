@@ -1,0 +1,14 @@
+{
+  "name": "nodejs",
+  "version": "0.0.0",
+  "description": "my first node js program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "lodash": "~4.17.11"
+  }
+}
